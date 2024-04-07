@@ -8,13 +8,13 @@ tags: [hugo, github]
 I decided to create a personal blog to share my thoughts, ideas, and projects with the world. I chose Hugo as my static site generator because of its simplicity, speed, and flexibility.
 So, it's a good idea to start this blog by explaining how to setup a personal blog with Hugo and deploy it on GitHub Pages.
 
-# Prerequisites
+## Prerequisites
 
-## Choose a appropriate theme
+### Choose a appropriate theme
 
 Hugo has a lot of themes available on the [official website](https://themes.gohugo.io/). You can choose one that fits your needs and customize it to your liking. For this blog, I chose the [Nightfall](https://themes.gohugo.io/themes/hugo-theme-nightfall/) theme because of its clean design and simplicity.
 
-## Installation
+### Installation
 
 To install Hugo, you can follow the instructions on the [official website](https://gohugo.io/getting-started/installing/). I'm using Arch Linux, so I installed Hugo with the following command:
 ```bash
@@ -26,7 +26,7 @@ Because I choose the Nightfall theme, I need to install [dart-sass](https://gohu
 sudo pacman -S dart-sass
 ```
 
-# Start a new site
+## Start a new site
 
 To create a new site with Hugo, you can use the following command:
 ```bash
@@ -59,9 +59,9 @@ Finally, we can start the server with the following command:
 hugo server
 ```
 
-# Publish on Github
+## Publish on Github
 
-## Create a Github repository
+### Create a Github repository
 
 I push it into the .gitignore file
 ```bash
@@ -79,6 +79,6 @@ git remote add origin git@github.com:lchagnoleau/lchagnoleau.git
 git push -u origin master
 ```
 
-## Deploy on Github Pages
+### Deploy on Github Pages
 
 The instructions to deploy the blog on Github Pages are available [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
