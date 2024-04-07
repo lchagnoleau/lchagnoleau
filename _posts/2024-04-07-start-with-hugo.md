@@ -1,14 +1,9 @@
-+++
-author = "Loïc Chagnoleau"
-title = "Setup a personal blog with Hugo"
-date = "2024-04-07"
-description = "How to setup a personal blog with Hugo and deploy it."
-tags = [
-    "hugo",
-    "github",
-]
-draft = false
-+++
+---
+title: Setup a personal blog with Hugo
+date: 2024-04-07
+categories: [website]
+tags: [hugo, github]
+---
 
 I decided to create a personal blog to share my thoughts, ideas, and projects with the world. I chose Hugo as my static site generator because of its simplicity, speed, and flexibility.
 So, it's a good idea to start this blog by explaining how to setup a personal blog with Hugo and deploy it on GitHub Pages.

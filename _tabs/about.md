@@ -1,9 +1,8 @@
-+++
-title = "About"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
+---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+---
 
 I'm a software engineer and a tech enthusiast. I'm passionate about technology and how it can be used to solve real-world problems. I'm also a big fan of open-source software and I try to contribute to the community as much as I can.
 
