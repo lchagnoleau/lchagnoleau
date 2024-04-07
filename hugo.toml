@@ -1,0 +1,26 @@
+baseURL = 'https://lchagnoleau.dev/'
+languageCode = 'en-us'
+title = 'Loïc Chagnoleau'
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "/posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[module]
+[[module.imports]]
+  path = 'github.com/LordMathis/hugo-theme-nightfall'
+
+[params]
+user = "me"
+hostname = "lchagnoleau.dev"
+readingTime = true
+published = true
+  [params.author]
+    name = "Loïc Chagnoleau"  # Website and RSS feed author
+    email = "lchagnoleau.dev"  # RSS feed email address
