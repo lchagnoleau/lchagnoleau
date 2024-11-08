@@ -42,6 +42,10 @@ google_site_verification: # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+umami:
+  id: "4919576f-ab40-43bd-98f7-76005f620e14"
+  domain: "https://umami.unzafe.com"
+
 google_analytics:
   id: # fill in your Google Analytics ID
 
