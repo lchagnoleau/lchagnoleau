@@ -1,3 +1,5 @@
+title = "Loïc Chagnoleau"
+
 # The URL the site will be built for
 base_url = "https://lchagnoleau.dev"
 
@@ -7,10 +9,27 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+generate_feeds = true
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
 [markdown]
 
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+theme = "github-dark"
 
 [extra]
-# Put all your custom variables here
+analytics = false
+theme = "auto"
+toc = true
+fancy_code = true
+socials = [
+  { name = "github", url = "https://github.com/lchagnoleau/", icon = "github" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/lo%C3%AFc-chagnoleau-899b13b7/", icon = "linkedin" },
+  { name = "mail", url = "javascript:location.href = 'mailto:' + ['contact','lchagnoleau.dev'].join('@')", icon = "email" },
+]
+menu = [
+  { name = "/posts", url = "/posts", weight = 1 },
+  { name = "/about", url = "/about", weight = 2 },
+]
