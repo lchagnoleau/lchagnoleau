@@ -1,0 +1,3 @@
+[submodule "zola/themes/apollo"]
+	path = zola/themes/apollo
+	url = https://github.com/not-matthias/apollo
