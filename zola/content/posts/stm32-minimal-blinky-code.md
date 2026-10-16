@@ -46,7 +46,7 @@ Following the svd file, we are looking foir the address of the RCC_AHB1ENR regis
   <addressOffset>0x30</addressOffset>
 ```
 
-We define it like this is our `maiu.c` file:
+We define it like this is our `main.c` file:
 
 ```c
 #define PERIPH_BASE 0x40000000U
