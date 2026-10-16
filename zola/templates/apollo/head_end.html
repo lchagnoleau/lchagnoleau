@@ -1,0 +1,15 @@
+{# Extra <head> tags: full favicon set and social sharing previews (LinkedIn, Mastodon, ...). #}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='icon/favicon-16x16.png') }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='icon/apple-touch-icon.png') }}" />
+<link rel="mask-icon" href="{{ get_url(path='icon/safari-pinned-tab.svg') }}" color="#ef5350" />
+
+{% set canonical = page?.permalink or section?.permalink or config.base_url %}
+<link rel="canonical" href="{{ canonical | safe }}" />
+<meta property="og:url" content="{{ canonical | safe }}" />
+<meta property="og:site_name" content="{{ config.title }}" />
+<meta property="og:type" content="{% if page?.date %}article{% else %}website{% endif %}" />
+<meta property="og:image" content="{{ get_url(path=config.extra.avatar) }}" />
+<meta name="twitter:card" content="summary" />
+{% if page?.date %}
+    <meta property="article:published_time" content="{{ page.date }}" />
+{% endif %}
