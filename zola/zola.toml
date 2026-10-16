@@ -33,7 +33,7 @@ socials = [
   { name = "github", url = "https://github.com/lchagnoleau/", icon = "github" },
   { name = "linkedin", url = "https://www.linkedin.com/in/lo%C3%AFc-chagnoleau-899b13b7/", icon = "linkedin" },
   { name = "stack-overflow", url = "https://stackoverflow.com/users/7068365/furlings", icon = "stack-overflow" },
-  { name = "mail", url = "javascript:location.href = 'mailto:' + ['contact','lchagnoleau.dev'].join('@')", icon = "email" },
+  { name = "mail", url = "javascript:location.href = 'mailto:' + ['lchagnoleau','pm.me'].join('@')", icon = "email" },
   { name = "rss", url = "/atom.xml", icon = "rss" },
 ]
 menu = [
