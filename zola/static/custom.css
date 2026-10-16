@@ -1,0 +1,84 @@
+/* Small additions on top of Apollo. Uses the theme's CSS variables so light/dark keep working. */
+
+/* Homepage intro */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.hero-avatar,
+.about-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.hero-title {
+  margin: 0 0 0.25rem;
+  font-size: 2.2rem;
+}
+
+.hero-tagline {
+  margin: 0;
+  color: var(--text-1);
+  font-size: 1.1rem;
+}
+
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.1em;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: var(--hover-color);
+  font-weight: 600;
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.button-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--hover-color);
+  filter: none;
+}
+
+/* About page */
+.about-avatar {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-cta {
+    justify-content: center;
+  }
+
+  .about-avatar {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem;
+  }
+}

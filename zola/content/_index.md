@@ -1,12 +1,23 @@
 +++
 sort_by = "date"
-paginate_by = 10
+paginate_by = 5
 +++
 
-I'm a software engineer and a tech enthusiast. I'm passionate about technology and how it can be used to solve real-world problems. I'm also a big fan of open-source software and I try to contribute to the community as much as I can.
+<div class="hero">
+  <img class="hero-avatar" src="/avatar.jpg" alt="Loïc Chagnoleau" width="120" height="120" />
+  <div>
+    <h1 class="hero-title">Hi, I'm Loïc.</h1>
+    <p class="hero-tagline">Embedded software engineer — firmware, low-level programming and reverse engineering.</p>
+  </div>
+</div>
 
-I'm trying to master the art of writing clean, maintainable, and scalable code. I'm always looking for ways to improve my skills and learn new technologies. Especially, I'm interested in the low level programming and reverse engineering.
+I write software that runs close to the hardware: bare-metal firmware for ARM Cortex-M microcontrollers, drivers, and the kind of low-level debugging that starts with a datasheet and ends with a logic analyzer.
 
-Feel free to reach out to me if you have any questions or if you just want to chat. I'm always open to meeting new people and learning new things.
+On this blog I share what I learn along the way — practical notes on embedded development, ARM internals and tooling.
 
-# Recent Posts
+<p class="hero-cta">
+  <a class="button" href="/about/#work-with-me">Work with me</a>
+  <a class="button button-secondary" href="/posts/">Read the blog</a>
+</p>
+
+## Recent posts
