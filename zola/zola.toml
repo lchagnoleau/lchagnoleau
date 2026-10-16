@@ -1,10 +1,12 @@
 title = "Loïc Chagnoleau"
+description = "Embedded software engineer — firmware, low-level programming and reverse engineering on ARM microcontrollers."
 
 # The URL the site will be built for
 base_url = "https://lchagnoleau.dev"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -14,22 +16,28 @@ generate_feeds = true
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
 
-[markdown]
-
 [markdown.highlighting]
-theme = "github-dark"
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
 
 [extra]
 analytics = false
-theme = "auto"
+theme = "toggle-auto"
 toc = true
 fancy_code = true
+favicon = "/icon/favicon-32x32.png"
+avatar = "/avatar.jpg"
+stylesheets = ["custom.css"]
 socials = [
   { name = "github", url = "https://github.com/lchagnoleau/", icon = "github" },
   { name = "linkedin", url = "https://www.linkedin.com/in/lo%C3%AFc-chagnoleau-899b13b7/", icon = "linkedin" },
+  { name = "stack-overflow", url = "https://stackoverflow.com/users/7068365/furlings", icon = "stack-overflow" },
   { name = "mail", url = "javascript:location.href = 'mailto:' + ['contact','lchagnoleau.dev'].join('@')", icon = "email" },
+  { name = "rss", url = "/atom.xml", icon = "rss" },
 ]
 menu = [
   { name = "/posts", url = "/posts", weight = 1 },
-  { name = "/about", url = "/about", weight = 2 },
+  { name = "/tags", url = "/tags", weight = 2 },
+  { name = "/about", url = "/about", weight = 3 },
 ]
