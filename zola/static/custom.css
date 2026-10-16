@@ -1,5 +1,11 @@
 /* Small additions on top of Apollo. Uses the theme's CSS variables so light/dark keep working. */
 
+/* Accent color (theme default is red #ef5350) */
+:root.light,
+:root.dark {
+  --primary-color: #3b82f6;
+}
+
 /* Homepage intro */
 .hero {
   display: flex;
