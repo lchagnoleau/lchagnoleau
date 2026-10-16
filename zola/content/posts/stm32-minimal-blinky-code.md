@@ -1,6 +1,10 @@
 +++
 title = "STM32 minimal blinky code"
 date = 2024-06-12
+description = "Writing the smallest possible LED blink for an STM32F429, register by register, straight from the SVD file."
+
+[taxonomies]
+tags = ["low-level", "debug", "arm", "stm32"]
 +++
 
 ## Introduction

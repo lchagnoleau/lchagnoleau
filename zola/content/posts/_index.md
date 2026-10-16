@@ -1,10 +1,9 @@
 +++
-paginate_by = 7
+paginate_by = 10
 title = "Posts"
 sort_by = "date"
 transparent = true
 insert_anchor_links = "heading"
-
-[extra]
-comment = true
+# Keep old Jekyll (Chirpy) URLs working
+aliases = ["archives", "categories"]
 +++
