@@ -21,6 +21,8 @@ I care about clean, maintainable and scalable code — even (especially) when it
 
 I'm open to missions and collaborations on embedded and low-level projects. Whether you need help bringing up a new board, tracking down a hard-to-reproduce bug or reviewing firmware, feel free to reach out.
 
+You can also download my [resume](https://github.com/lchagnoleau/resume/releases/latest/download/Loic_Chagnoleau_CV.pdf) and [portfolio](https://github.com/lchagnoleau/resume/releases/latest/download/Loic_Chagnoleau_Portfolio.pdf) (PDF).
+
 - <a href="javascript:location.href = 'mailto:' + ['contact','lchagnoleau.dev'].join('@')">Email me</a>
 - [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-chagnoleau-899b13b7/)
 - [GitHub](https://github.com/lchagnoleau)

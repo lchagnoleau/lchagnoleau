@@ -17,7 +17,8 @@ On this blog I share what I learn along the way — practical notes on embedded 
 
 <p class="hero-cta">
   <a class="button" href="/about/#work-with-me">Work with me</a>
-  <a class="button button-secondary" href="/posts/">Read the blog</a>
+  <a class="button button-secondary" href="https://github.com/lchagnoleau/resume/releases/latest/download/Loic_Chagnoleau_CV.pdf">Resume (PDF)</a>
+  <a class="button button-secondary" href="https://github.com/lchagnoleau/resume/releases/latest/download/Loic_Chagnoleau_Portfolio.pdf">Portfolio (PDF)</a>
 </p>
 
 ## Recent posts
